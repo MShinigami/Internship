@@ -1,0 +1,27 @@
+https://bootstrap.pypa.io/pip/3.6/get-pip.py
+
+save where python executable file stored and then in cmd or powershell
+go to python location as 
+cd C:\Users\admin\AppData\Local\Programs\Python\Python36-32
+and then type python get-pip.py
+
+then pip will start installing in your Python 
+
+pip install django
+
+pip install django --upgrade - for upgraded version
+
+pip freeze - we can check which packages we installed in python
+
+in vs code - download extension
+DJango - Baptiste Darthenay
+
+in terminal -
+to start any project:
+django-admin startproject Hello
+
+and then in terminal comes into that project name as
+Hello and then type :
+python manage.py runserver
+
+then one ip will display that is your project display page on browser
